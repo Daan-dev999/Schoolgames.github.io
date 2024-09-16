@@ -1,0 +1,157 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #1a1a1d;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #272727;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #e94e77;
+}
+
+.logo span {
+  color: #d9d9d9;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #e94e77;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background-image: url('images/9136.png'); /* Updated path for PNG */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.hero .btn {
+  padding: 15px 30px;
+  background-color: #e94e77;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #ff576c;
+}
+
+/* Game Gallery */
+.gallery {
+  padding: 50px 0;
+  background-color: #222;
+  text-align: center;
+}
+
+.gallery h2 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.game-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.game-card {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-10px);
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.game-card h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.game-card p {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #272727;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.socials a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+}
