@@ -54,7 +54,7 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background-image: url('images/9136.png'); /* Updated path for PNG */
+  background-image: url('9136.png'); /* Updated to your PNG file */
   background-size: cover;
   background-position: center;
   display: flex;
