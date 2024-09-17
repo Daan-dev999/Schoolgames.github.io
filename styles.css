@@ -54,7 +54,7 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background-image: url('9136.png'); /* Updated to your PNG file */
+  background-image: url('9136.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -133,6 +133,27 @@ nav ul li a:hover {
 .game-card p {
   margin-top: 10px;
   color: #aaa;
+}
+
+/* Counter Section */
+.counter {
+  padding: 30px 0;
+  background-color: #333;
+  text-align: center;
+}
+
+.counter h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.counter ul {
+  list-style: none;
+}
+
+.counter li {
+  font-size: 1.2rem;
+  margin: 10px 0;
 }
 
 /* Footer */
