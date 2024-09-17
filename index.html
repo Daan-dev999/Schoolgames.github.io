@@ -34,44 +34,37 @@
   <section id="games" class="gallery">
     <h2>Popular Games</h2>
     <div class="game-cards">
-      <a href="https://eaglercraft.com/" class="game-card" target="_blank">
+      <a href="https://eaglercraft.com/" class="game-card" target="_blank" onclick="incrementCounter('minecraft')">
         <img src="minecraft.jpg" alt="Minecraft (Cracked)">
         <h3>Minecraft (Cracked)</h3>
         <p>Sandbox | Free</p>
+        <p>Clicks: <span id="minecraft-counter">0</span></p>
       </a>
-      <a href="https://krunker.io/" class="game-card" target="_blank">
+      <a href="https://krunker.io/" class="game-card" target="_blank" onclick="incrementCounter('krunker')">
         <img src="krunker.jpg" alt="Krunker">
         <h3>Krunker</h3>
         <p>FPS | Multiplayer</p>
+        <p>Clicks: <span id="krunker-counter">0</span></p>
       </a>
-      <a href="https://1v1.lol/" class="game-card" target="_blank">
+      <a href="https://1v1.lol/" class="game-card" target="_blank" onclick="incrementCounter('1v1lol')">
         <img src="1v1lol.jpg" alt="1v1.lol">
         <h3>1v1.lol</h3>
         <p>Battle Royale | Multiplayer</p>
+        <p>Clicks: <span id="1v1lol-counter">0</span></p>
       </a>
-      <a href="https://bloxd.io/" class="game-card" target="_blank">
+      <a href="https://bloxd.io/" class="game-card" target="_blank" onclick="incrementCounter('bloxd')">
         <img src="bloxd.jpg" alt="Bloxd">
         <h3>Bloxd</h3>
         <p>Adventure | Multiplayer</p>
+        <p>Clicks: <span id="bloxd-counter">0</span></p>
       </a>
-      <a href="https://bonk.io/" class="game-card" target="_blank">
+      <a href="https://bonk.io/" class="game-card" target="_blank" onclick="incrementCounter('bonk')">
         <img src="bonk.jpg" alt="Bonk.io">
         <h3>Bonk.io</h3>
-        <p>Physics | Multiplayer</p>
+        <p>Physics Platformer | Multiplayer</p>
+        <p>Clicks: <span id="bonk-counter">0</span></p>
       </a>
     </div>
-  </section>
-
-  <!-- Popular Games Counter -->
-  <section id="counter" class="counter">
-    <h2>Most Popular Games</h2>
-    <ul>
-      <li>Minecraft (Cracked): <span id="minecraft-count">0</span> plays</li>
-      <li>Krunker: <span id="krunker-count">0</span> plays</li>
-      <li>1v1.lol: <span id="1v1lol-count">0</span> plays</li>
-      <li>Bloxd: <span id="bloxd-count">0</span> plays</li>
-      <li>Bonk.io: <span id="bonk-count">0</span> plays</li>
-    </ul>
   </section>
 
   <!-- Footer -->
@@ -84,6 +77,7 @@
     </div>
   </footer>
 
+  <!-- Link to counter.js -->
   <script src="counter.js"></script>
 </body>
 </html>
